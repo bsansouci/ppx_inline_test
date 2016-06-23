@@ -1,0 +1,17 @@
+{
+  "name": "ppx_inline_test",
+  "version": "0.0.1",
+  "description": "Syntax extension for writing in-line tests in ocaml code",
+  "license": "Apache-2.0",
+  "jengaboot": {
+    "ppxFlag": "ppx-jane -as-ppx -inline-test-lib core -inline-test-drop -bench-drop"
+  },
+  "devDependencies": {
+    "jengaboot": "git://github.com/bsansouci/jengaboot.git#tmp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsansouci/ppx_inline_test.git"
+  },
+  "author": "Jane Street Group, LLC <opensource@janestreet.com>"
+}
